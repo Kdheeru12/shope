@@ -1,0 +1,15 @@
+query 1 to get all users
+
+query{
+  users{
+    edges{
+      node{
+        username
+        id
+      }
+    }
+  }
+}
+
+
+
