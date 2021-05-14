@@ -14,7 +14,7 @@ def hello(request):
     s.starttls()
 
     # Authentication
-    s.login("dheerukreddy@gmail.com", "Kmunna@!22001")
+    s.login("dheerukreddy@gmail.com", "mleojhblfeuosxit")
 
     # message to be sent
     message = "Message_you_need_to_send"
