@@ -238,3 +238,13 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET ='7pr24naAYLbesmMKN6VOASTG'
 # ADMIN_CHARTS_D3_JS_PATH = 'bow/d3/d3.js'
 
 # SRS_DOCUMENT = https://docs.google.com/document/d/1uFSbLrQesWY6L7Z-ZvHAchJVEmTdXYR1R8WG7FJMxSs/edit?usp=sharing
+
+
+# gmail_send/settings.py
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'dheerukreddy@gmail.com'
+EMAIL_HOST_PASSWORD = 'mleojhblfeuosxit'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'dheerukreddy@gmail.com'
